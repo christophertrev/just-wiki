@@ -82,15 +82,18 @@ WSGI_APPLICATION = 'wikitest.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
+
 DATABASES = {
   'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'wiki',                      
-        'USER': 'christophertrev',
-        'PASSWORD': 'eolrrf1234',
-        'HOST': ''
-    }
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'NAME': 'db2go9b6uarctp',
+    'HOST': 'ec2-54-235-250-41.compute-1.amazonaws.com',
+    'PORT': 5432,
+    'USER': 'sdixmixwlazkud',
+    'PASSWORD': 'dvV6S9IUaRNCnpm2rVGLIAg21v'
+  }
 }
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
